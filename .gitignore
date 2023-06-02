@@ -1,2 +1,6 @@
 /Presentation/Nop.Web/obj
 /.vs
+/Libraries/Nop.Data/obj
+/Libraries/Nop.Services/obj
+/Presentation/Nop.Web.Framework/obj
+/Presentation/Nop.Web/bin
