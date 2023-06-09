@@ -4,3 +4,6 @@
 /Libraries/Nop.Services/obj
 /Presentation/Nop.Web.Framework/obj
 /Presentation/Nop.Web/bin
+/Tests
+/obj
+obj

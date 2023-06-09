@@ -1,3 +1,8 @@
+C:\work\Shop\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Web.deps.json
+C:\work\Shop\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Web.runtimeconfig.json
+C:\work\Shop\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Web.runtimeconfig.dev.json
+C:\work\Shop\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Web.staticwebassets.runtime.json
+C:\work\Shop\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Web.exe
 C:\work\Shop\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\license.txt
 C:\work\Shop\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\nivo-slider.css
 C:\work\Shop\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\README
@@ -30,11 +35,6 @@ C:\work\Shop\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Views\Configure.csh
 C:\work\Shop\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Views\PublicInfo.cshtml
 C:\work\Shop\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Views\_PublicInfo.SliderLine.cshtml
 C:\work\Shop\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Views\_ViewImports.cshtml
-C:\work\Shop\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Web.deps.json
-C:\work\Shop\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Web.runtimeconfig.json
-C:\work\Shop\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Web.runtimeconfig.dev.json
-C:\work\Shop\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Web.staticwebassets.runtime.json
-C:\work\Shop\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Web.exe
 C:\work\Shop\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Plugin.Widgets.NivoSlider.deps.json
 C:\work\Shop\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Plugin.Widgets.NivoSlider.dll
 C:\work\Shop\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Plugin.Widgets.NivoSlider.pdb
