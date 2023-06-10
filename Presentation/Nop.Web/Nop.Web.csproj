@@ -111,7 +111,7 @@
       More details here: https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/fundamentals#concurrent-garbage-collection-->
     <ConcurrentGarbageCollection>false</ConcurrentGarbageCollection>
     <StartupObject></StartupObject>
-    <BaseOutputPath>..\Nop.Web</BaseOutputPath>
+    <BaseOutputPath></BaseOutputPath>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
