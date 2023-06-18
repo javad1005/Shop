@@ -7,6 +7,8 @@
 /Tests
 /obj
 obj
+bin
+/bin
 /Presentation/Nop.Web/Debug
 /Presentation/Nop.Web.Framework/bin
 /Libraries/Nop.Core/obj
@@ -24,3 +26,6 @@ obj
 /Plugins/Nop.Plugin.Widgets.GoogleAnalytics/obj
 /Plugins/Nop.Plugin.Widgets.NivoSlider/obj
 /Plugins/Nop.Plugin.Widgets.What3words/obj
+/Libraries/Nop.Core/bin
+/Libraries/Nop.Data/bin
+/Libraries/Nop.Services/bin
