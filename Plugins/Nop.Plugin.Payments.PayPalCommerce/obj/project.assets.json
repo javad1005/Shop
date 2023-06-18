@@ -14612,19 +14612,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ultra\\.nuget\\packages\\": {}
+    "C:\\Users\\HP\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\work\\Shop\\Plugins\\Nop.Plugin.Payments.PayPalCommerce\\Nop.Plugin.Payments.PayPalCommerce.csproj",
+      "projectUniqueName": "C:\\work\\shop\\Plugins\\Nop.Plugin.Payments.PayPalCommerce\\Nop.Plugin.Payments.PayPalCommerce.csproj",
       "projectName": "Nop.Plugin.Payments.PayPalCommerce",
-      "projectPath": "C:\\work\\Shop\\Plugins\\Nop.Plugin.Payments.PayPalCommerce\\Nop.Plugin.Payments.PayPalCommerce.csproj",
-      "packagesPath": "C:\\Users\\Ultra\\.nuget\\packages\\",
-      "outputPath": "C:\\work\\Shop\\Plugins\\Nop.Plugin.Payments.PayPalCommerce\\obj\\",
+      "projectPath": "C:\\work\\shop\\Plugins\\Nop.Plugin.Payments.PayPalCommerce\\Nop.Plugin.Payments.PayPalCommerce.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "C:\\work\\shop\\Plugins\\Nop.Plugin.Payments.PayPalCommerce\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Ultra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -14638,8 +14638,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\work\\Shop\\Presentation\\Nop.Web\\Nop.Web.csproj": {
-              "projectPath": "C:\\work\\Shop\\Presentation\\Nop.Web\\Nop.Web.csproj"
+            "C:\\work\\shop\\Presentation\\Nop.Web\\Nop.Web.csproj": {
+              "projectPath": "C:\\work\\shop\\Presentation\\Nop.Web\\Nop.Web.csproj"
             }
           }
         }
@@ -14683,7 +14683,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

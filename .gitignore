@@ -9,3 +9,5 @@
 obj
 /Presentation/Nop.Web/Debug
 /Presentation/Nop.Web.Framework/bin
+/Libraries/Nop.Core/obj
+/Plugins/Nop.Plugin.Misc.WebApi.Frontend/obj
