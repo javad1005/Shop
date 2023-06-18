@@ -11,3 +11,16 @@ obj
 /Presentation/Nop.Web.Framework/bin
 /Libraries/Nop.Core/obj
 /Plugins/Nop.Plugin.Misc.WebApi.Frontend/obj
+/Plugins/Nop.Plugin.Misc.Zettle/obj
+/Plugins/Nop.Plugin.MultiFactorAuth.GoogleAuthenticator/obj
+/Plugins/Nop.Plugin.Payments.CheckMoneyOrder/obj
+/Plugins/Nop.Plugin.Payments.Manual/obj
+/Plugins/Nop.Plugin.Payments.PayPalCommerce/obj
+/Plugins/Nop.Plugin.Pickup.PickupInStore/obj
+/Plugins/Nop.Plugin.Shipping.FixedByWeightByTotal/obj
+/Plugins/Nop.Plugin.Shipping.UPS/obj
+/Plugins/Nop.Plugin.Tax.FixedOrByCountryStateZip/obj
+/Plugins/Nop.Plugin.Widgets.FacebookPixel/obj
+/Plugins/Nop.Plugin.Widgets.GoogleAnalytics/obj
+/Plugins/Nop.Plugin.Widgets.NivoSlider/obj
+/Plugins/Nop.Plugin.Widgets.What3words/obj
