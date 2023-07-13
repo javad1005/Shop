@@ -1,6 +1,14 @@
-
+/*********** FONT FACE ****************/
+@font-face {
+	font-family: 'IranSans';
+	src: url('../fonts/IRANSansWeb Persian/IRANSansWeb Persian.eot');
+	src: url('../fonts/Woff/IRANSansWeb Persian.woff') format('woff'), url('../fonts/IRANSansWeb Persian/IRANSansWeb Persian.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
 body {
-	font: normal 9pt Arial, Helvetica, sans-serif;
+	font: normal 9pt IranSans;
 	color: #000;
 }
 table {

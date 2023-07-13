@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s3NIOtw/AKBmMwODYtk8nqZf9oeEFzGbQY16KXcp14dld8gMEGJ+HhZivZVgWGLti0arRpaIGRBsG3fAN9l5qg==",
+  "dgSpecHash": "9IzxJ6NxRUsAK52DhCmLmj7Nq2GgKd/DBba+QQMj0S9f4U7gGX3J7siI2wnIW685ovxD+rE7FB3vr87jhArV7A==",
   "success": true,
-  "projectFilePath": "C:\\work\\shop\\Plugins\\Nop.Plugin.MultiFactorAuth.GoogleAuthenticator\\Nop.Plugin.MultiFactorAuth.GoogleAuthenticator.csproj",
+  "projectFilePath": "C:\\Users\\HP\\Desktop\\RasteBazar\\Shop\\Plugins\\Nop.Plugin.MultiFactorAuth.GoogleAuthenticator\\Nop.Plugin.MultiFactorAuth.GoogleAuthenticator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\advancedstringbuilder\\0.1.0\\advancedstringbuilder.0.1.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\autofac\\6.4.0\\autofac.6.4.0.nupkg.sha512",

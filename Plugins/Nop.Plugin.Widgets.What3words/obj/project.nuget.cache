@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "864/Zi1ETGu5rvAf5KN5ja5cCsTivU3qmJfby/l/mJxXOVgFFGoAPW2phUQFju9sNTpSK0kS9M49diUgeuCj8w==",
+  "dgSpecHash": "ZO1l/O1PS2nJXwop6gvEx37Y11faGRBbwQtgBVaYYDPafnUwJ6liN5o1HTgLPwtAAUHjE07uzJK+VplVmixNoA==",
   "success": true,
-  "projectFilePath": "C:\\work\\shop\\Plugins\\Nop.Plugin.Widgets.What3words\\Nop.Plugin.Widgets.What3words.csproj",
+  "projectFilePath": "C:\\Users\\HP\\Desktop\\RasteBazar\\Shop\\Plugins\\Nop.Plugin.Widgets.What3words\\Nop.Plugin.Widgets.What3words.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\advancedstringbuilder\\0.1.0\\advancedstringbuilder.0.1.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\autofac\\6.4.0\\autofac.6.4.0.nupkg.sha512",

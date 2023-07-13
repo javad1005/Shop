@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\work\\shop\\Plugins\\Nop.Plugin.Pickup.PickupInStore\\Nop.Plugin.Pickup.PickupInStore.csproj": {}
+    "C:\\Users\\HP\\Desktop\\RasteBazar\\Shop\\Plugins\\Nop.Plugin.Pickup.PickupInStore\\Nop.Plugin.Pickup.PickupInStore.csproj": {}
   },
   "projects": {
-    "C:\\work\\shop\\Libraries\\Nop.Core\\Nop.Core.csproj": {
+    "C:\\Users\\HP\\Desktop\\RasteBazar\\Shop\\Libraries\\Nop.Core\\Nop.Core.csproj": {
       "version": "4.5.0",
       "restore": {
-        "projectUniqueName": "C:\\work\\shop\\Libraries\\Nop.Core\\Nop.Core.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\RasteBazar\\Shop\\Libraries\\Nop.Core\\Nop.Core.csproj",
         "projectName": "Nop.Core",
-        "projectPath": "C:\\work\\shop\\Libraries\\Nop.Core\\Nop.Core.csproj",
+        "projectPath": "C:\\Users\\HP\\Desktop\\RasteBazar\\Shop\\Libraries\\Nop.Core\\Nop.Core.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\work\\shop\\Libraries\\Nop.Core\\obj\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\RasteBazar\\Shop\\Libraries\\Nop.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -117,21 +122,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\work\\shop\\Libraries\\Nop.Data\\Nop.Data.csproj": {
+    "C:\\Users\\HP\\Desktop\\RasteBazar\\Shop\\Libraries\\Nop.Data\\Nop.Data.csproj": {
       "version": "4.5.0",
       "restore": {
-        "projectUniqueName": "C:\\work\\shop\\Libraries\\Nop.Data\\Nop.Data.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\RasteBazar\\Shop\\Libraries\\Nop.Data\\Nop.Data.csproj",
         "projectName": "Nop.Data",
-        "projectPath": "C:\\work\\shop\\Libraries\\Nop.Data\\Nop.Data.csproj",
+        "projectPath": "C:\\Users\\HP\\Desktop\\RasteBazar\\Shop\\Libraries\\Nop.Data\\Nop.Data.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\work\\shop\\Libraries\\Nop.Data\\obj\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\RasteBazar\\Shop\\Libraries\\Nop.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -139,14 +148,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\work\\shop\\Libraries\\Nop.Core\\Nop.Core.csproj": {
-                "projectPath": "C:\\work\\shop\\Libraries\\Nop.Core\\Nop.Core.csproj"
+              "C:\\Users\\HP\\Desktop\\RasteBazar\\Shop\\Libraries\\Nop.Core\\Nop.Core.csproj": {
+                "projectPath": "C:\\Users\\HP\\Desktop\\RasteBazar\\Shop\\Libraries\\Nop.Core\\Nop.Core.csproj"
               }
             }
           }
@@ -210,21 +220,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\work\\shop\\Libraries\\Nop.Services\\Nop.Services.csproj": {
+    "C:\\Users\\HP\\Desktop\\RasteBazar\\Shop\\Libraries\\Nop.Services\\Nop.Services.csproj": {
       "version": "4.5.0",
       "restore": {
-        "projectUniqueName": "C:\\work\\shop\\Libraries\\Nop.Services\\Nop.Services.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\RasteBazar\\Shop\\Libraries\\Nop.Services\\Nop.Services.csproj",
         "projectName": "Nop.Services",
-        "projectPath": "C:\\work\\shop\\Libraries\\Nop.Services\\Nop.Services.csproj",
+        "projectPath": "C:\\Users\\HP\\Desktop\\RasteBazar\\Shop\\Libraries\\Nop.Services\\Nop.Services.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\work\\shop\\Libraries\\Nop.Services\\obj\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\RasteBazar\\Shop\\Libraries\\Nop.Services\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -232,17 +246,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\work\\shop\\Libraries\\Nop.Core\\Nop.Core.csproj": {
-                "projectPath": "C:\\work\\shop\\Libraries\\Nop.Core\\Nop.Core.csproj"
+              "C:\\Users\\HP\\Desktop\\RasteBazar\\Shop\\Libraries\\Nop.Core\\Nop.Core.csproj": {
+                "projectPath": "C:\\Users\\HP\\Desktop\\RasteBazar\\Shop\\Libraries\\Nop.Core\\Nop.Core.csproj"
               },
-              "C:\\work\\shop\\Libraries\\Nop.Data\\Nop.Data.csproj": {
-                "projectPath": "C:\\work\\shop\\Libraries\\Nop.Data\\Nop.Data.csproj"
+              "C:\\Users\\HP\\Desktop\\RasteBazar\\Shop\\Libraries\\Nop.Data\\Nop.Data.csproj": {
+                "projectPath": "C:\\Users\\HP\\Desktop\\RasteBazar\\Shop\\Libraries\\Nop.Data\\Nop.Data.csproj"
               }
             }
           }
@@ -318,21 +333,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\work\\shop\\Plugins\\Nop.Plugin.Pickup.PickupInStore\\Nop.Plugin.Pickup.PickupInStore.csproj": {
+    "C:\\Users\\HP\\Desktop\\RasteBazar\\Shop\\Plugins\\Nop.Plugin.Pickup.PickupInStore\\Nop.Plugin.Pickup.PickupInStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\work\\shop\\Plugins\\Nop.Plugin.Pickup.PickupInStore\\Nop.Plugin.Pickup.PickupInStore.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\RasteBazar\\Shop\\Plugins\\Nop.Plugin.Pickup.PickupInStore\\Nop.Plugin.Pickup.PickupInStore.csproj",
         "projectName": "Nop.Plugin.Pickup.PickupInStore",
-        "projectPath": "C:\\work\\shop\\Plugins\\Nop.Plugin.Pickup.PickupInStore\\Nop.Plugin.Pickup.PickupInStore.csproj",
+        "projectPath": "C:\\Users\\HP\\Desktop\\RasteBazar\\Shop\\Plugins\\Nop.Plugin.Pickup.PickupInStore\\Nop.Plugin.Pickup.PickupInStore.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\work\\shop\\Plugins\\Nop.Plugin.Pickup.PickupInStore\\obj\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\RasteBazar\\Shop\\Plugins\\Nop.Plugin.Pickup.PickupInStore\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -340,14 +359,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\work\\shop\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj": {
-                "projectPath": "C:\\work\\shop\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj"
+              "C:\\Users\\HP\\Desktop\\RasteBazar\\Shop\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj": {
+                "projectPath": "C:\\Users\\HP\\Desktop\\RasteBazar\\Shop\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj"
               }
             }
           }
@@ -377,21 +397,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\work\\shop\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj": {
+    "C:\\Users\\HP\\Desktop\\RasteBazar\\Shop\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj": {
       "version": "4.5.0",
       "restore": {
-        "projectUniqueName": "C:\\work\\shop\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\RasteBazar\\Shop\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj",
         "projectName": "Nop.Web.Framework",
-        "projectPath": "C:\\work\\shop\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj",
+        "projectPath": "C:\\Users\\HP\\Desktop\\RasteBazar\\Shop\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\work\\shop\\Presentation\\Nop.Web.Framework\\obj\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\RasteBazar\\Shop\\Presentation\\Nop.Web.Framework\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -399,20 +423,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\work\\shop\\Libraries\\Nop.Core\\Nop.Core.csproj": {
-                "projectPath": "C:\\work\\shop\\Libraries\\Nop.Core\\Nop.Core.csproj"
+              "C:\\Users\\HP\\Desktop\\RasteBazar\\Shop\\Libraries\\Nop.Core\\Nop.Core.csproj": {
+                "projectPath": "C:\\Users\\HP\\Desktop\\RasteBazar\\Shop\\Libraries\\Nop.Core\\Nop.Core.csproj"
               },
-              "C:\\work\\shop\\Libraries\\Nop.Data\\Nop.Data.csproj": {
-                "projectPath": "C:\\work\\shop\\Libraries\\Nop.Data\\Nop.Data.csproj"
+              "C:\\Users\\HP\\Desktop\\RasteBazar\\Shop\\Libraries\\Nop.Data\\Nop.Data.csproj": {
+                "projectPath": "C:\\Users\\HP\\Desktop\\RasteBazar\\Shop\\Libraries\\Nop.Data\\Nop.Data.csproj"
               },
-              "C:\\work\\shop\\Libraries\\Nop.Services\\Nop.Services.csproj": {
-                "projectPath": "C:\\work\\shop\\Libraries\\Nop.Services\\Nop.Services.csproj"
+              "C:\\Users\\HP\\Desktop\\RasteBazar\\Shop\\Libraries\\Nop.Services\\Nop.Services.csproj": {
+                "projectPath": "C:\\Users\\HP\\Desktop\\RasteBazar\\Shop\\Libraries\\Nop.Services\\Nop.Services.csproj"
               }
             }
           }
@@ -460,7 +485,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

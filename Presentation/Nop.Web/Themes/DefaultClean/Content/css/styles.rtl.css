@@ -66,6 +66,16 @@ script {
   display: none !important;
 }
 
+/*********** FONT FACE ****************/
+@font-face {
+    font-family: 'IranSans';
+    src: url('../fonts/IRANSansWeb Persian/IRANSansWeb Persian.eot');
+    src: url('../fonts/Woff/IRANSansWeb Persian.woff') format('woff'), url('../fonts/IRANSansWeb Persian/IRANSansWeb Persian.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 
 /*********** GLOBAL STYLES **********/
 
@@ -75,7 +85,7 @@ body {
   max-width: 100%;
   overflow-x: hidden;
   background-color: #fff;
-  font: normal 14px Arial, Helvetica, sans-serif;
+  font: normal 14px IranSans;
   color: #777;
 }
 
@@ -110,7 +120,7 @@ textarea, select {
 
 input, textarea, select, button {
   font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: IranSans;
   color: #777;
 }
 
@@ -6457,7 +6467,7 @@ label, label + * {
   /*override jQuery UI styles, do not delete doubled properties*/
   line-height: normal;
   font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: IranSans;
   color: #777;
 }
 
@@ -6483,7 +6493,7 @@ label, label + * {
   /*override jQuery UI styles, do not delete doubled properties*/
   line-height: normal;
   font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: IranSans;
   color: #777;
 }
 

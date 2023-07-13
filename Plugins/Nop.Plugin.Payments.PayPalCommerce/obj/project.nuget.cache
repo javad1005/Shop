@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nK9pNwN8iku0y1SPatbFnQ+yy5RZMdYJ1PyJFPbYqWp5VZ9iwSSOji3GUqf6Q63Rf2n8RcS5OV63HsYmwN7qgw==",
+  "dgSpecHash": "l+gwEpFm+CN+lCZQ/FWl19G4dOmLXlTwf613GqTHo0jbBAe+eGZ+yha1fYp5GyDgwSTC/c/t7QFkkZ80SW2s1A==",
   "success": true,
-  "projectFilePath": "C:\\work\\shop\\Plugins\\Nop.Plugin.Payments.PayPalCommerce\\Nop.Plugin.Payments.PayPalCommerce.csproj",
+  "projectFilePath": "C:\\Users\\HP\\Desktop\\RasteBazar\\Shop\\Plugins\\Nop.Plugin.Payments.PayPalCommerce\\Nop.Plugin.Payments.PayPalCommerce.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\advancedstringbuilder\\0.1.0\\advancedstringbuilder.0.1.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\autofac\\6.4.0\\autofac.6.4.0.nupkg.sha512",

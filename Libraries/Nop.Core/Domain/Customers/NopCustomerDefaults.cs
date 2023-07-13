@@ -51,6 +51,51 @@
         #region Customer attributes
 
         /// <summary>
+        /// Gets a name of generic attribute to store the value of 'FirstName'
+        /// </summary>
+        public static string FirstNameAttribute => "FirstName";
+
+        /// <summary>
+        /// Gets a name of generic attribute to store the value of 'LastName'
+        /// </summary>
+        public static string LastNameAttribute => "LastName";
+
+        /// <summary>
+        /// Gets a name of generic attribute to store the value of 'LanguageId'
+        /// </summary>
+        public static string LanguageIdAttribute => "LanguageId";
+
+        /// <summary>
+        /// Gets a name of generic attribute to store the value of 'DiscountCouponCode'
+        /// </summary>
+        public static string CurrencyIdAttribute => "CurrencyId";
+
+        /// <summary>
+        /// Gets a name of generic attribute to store the value of 'DateOfBirth'
+        /// </summary>
+        public static string DateOfBirthAttribute => "DateOfBirth";
+
+        /// <summary>
+        /// Gets a name of generic attribute to store the value of 'Gender'
+        /// </summary>
+        public static string GenderAttribute => "Gender";
+
+        /// <summary>
+        /// Gets a name of generic attribute to store the value of 'VatNumber'
+        /// </summary>
+        public static string VatNumberAttribute => "VatNumber";
+
+        /// <summary>
+        /// Gets a name of generic attribute to store the value of 'VatNumberStatusId'
+        /// </summary>
+        public static string VatNumberStatusIdAttribute => "VatNumberStatusId";
+
+        /// <summary>
+        /// Gets a name of generic attribute to store the value of 'DiscountCouponCode'
+        /// </summary>
+        public static string CompanyAttribute => "Company";
+
+        /// <summary>
         /// Gets a name of generic attribute to store the value of 'DiscountCouponCode'
         /// </summary>
         public static string DiscountCouponCodeAttribute => "DiscountCouponCode";
