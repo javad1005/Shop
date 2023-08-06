@@ -1,0 +1,33 @@
+﻿body
+{
+}
+
+
+/*table style*/
+table {
+    font-family: 'Segoe UI';
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: none;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

@@ -1,0 +1,11 @@
+{
+  "Group": "Castom",
+  "FriendlyName": "MyReactApp",
+  "SystemName": "Nop.Plugin.MyReactApp",
+  "Version": "1.0",
+  "SupportedVersions": [ "4.60" ],
+  "Author": "RasteBazar team",
+  "DisplayOrder": 1,
+  "FileName": "Nop.Plugin.MyReactApp.dll",
+  "Description": "This plugin enables integration with RasteBazar"
+}

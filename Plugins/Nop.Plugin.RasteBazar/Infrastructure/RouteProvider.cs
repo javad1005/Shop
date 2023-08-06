@@ -32,6 +32,30 @@ namespace Nop.Plugin.RasteBazar.Infrastructure
                $"{lang}/Dashbord",
                new { controller = "RasteBazarPublic", action = "Dashbord" });
 
+            endpointRouteBuilder.MapControllerRoute(RasteBazarDefaults.AboutStoreRouteName,
+              $"{lang}/AboutStore_cu",
+              new { controller = "RasteBazarPublic", action = "AboutStore" });
+
+            endpointRouteBuilder.MapControllerRoute(RasteBazarDefaults.CustomersRouteName,
+              $"{lang}/Customers_cu",
+              new { controller = "RasteBazarPublic", action = "Customers" });
+
+            endpointRouteBuilder.MapControllerRoute(RasteBazarDefaults.FactorRouteName,
+              $"{lang}/Factor_cu",
+              new { controller = "RasteBazarPublic", action = "Factor" });
+
+            endpointRouteBuilder.MapControllerRoute(RasteBazarDefaults.ProductsRouteName,
+              $"{lang}/Products_cu",
+              new { controller = "RasteBazarPublic", action = "Products" });
+
+            endpointRouteBuilder.MapControllerRoute(RasteBazarDefaults.ReportsRouteName,
+              $"{lang}/Reports_cu",
+              new { controller = "RasteBazarPublic", action = "Reports" });
+
+            endpointRouteBuilder.MapControllerRoute(RasteBazarDefaults.SettingsRouteName,
+              $"{lang}/Settings_cu",
+              new { controller = "RasteBazarPublic", action = "Settings" });
+
         }
     }
 }

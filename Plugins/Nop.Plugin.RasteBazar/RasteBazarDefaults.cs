@@ -33,9 +33,39 @@ namespace Nop.Plugin.RasteBazar
         public static string ConfigurationRouteName => "Plugin.RasteBazar.Configure";
 
         /// <summary>
-        /// Gets the configuration route name
+        /// Gets the Dashbord route name
         /// </summary>
         public static string DashbordRouteName => "Plugin.RasteBazar.Dashbord";
+
+        /// <summary>
+        /// Gets the AboutStore route name
+        /// </summary>
+        public static string AboutStoreRouteName => "Plugin.RasteBazar.AboutStore";
+
+        /// <summary>
+        /// Gets the Customers route name
+        /// </summary>
+        public static string CustomersRouteName => "Plugin.RasteBazar.Customers";
+
+        /// <summary>
+        /// Gets the Factor route name
+        /// </summary>
+        public static string FactorRouteName => "Plugin.RasteBazar.Factor";
+
+        /// <summary>
+        /// Gets the Items route name
+        /// </summary>
+        public static string ProductsRouteName => "Plugin.RasteBazar.Products";
+
+        /// <summary>
+        /// Gets the Reports route name
+        /// </summary>
+        public static string ReportsRouteName => "Plugin.RasteBazar.Reports";
+
+        /// <summary>
+        /// Gets the Settings route name
+        /// </summary>
+        public static string SettingsRouteName => "Plugin.RasteBazar.Settings";
 
         /// <summary>
         /// Gets the one page checkout route name
@@ -58,14 +88,24 @@ namespace Nop.Plugin.RasteBazar
         public static string RefundIdAttributeName => "PayPalCommerceRefundId";
 
         /// <summary>
-        /// Gets the path of Main.jsx file
+        /// Gets the path of Products.css file
         /// </summary>
-        public static string RasteBazarCssResource => "~/Plugins/Nop.Plugin.RasteBazar/Content/Main.Css";
+        public static string ProductsCssResource => "~/Plugins/RasteBazar/Content/Products.css";
 
         /// <summary>
-        /// Gets the path of Main.jsx file
+        /// Gets the path of Main.js file
         /// </summary>
-        public static string RasteBazarScriptResource => "~/Plugins/Nop.Plugin.RasteBazar/Scripts/Main.jsx";
+        public static string ProductsScriptResource => "~/Plugins/RasteBazar/Scripts/Main.js";
+
+        /// <summary>
+        /// Gets the path of BaseScript.js file
+        /// </summary>
+        public static string BaseScriptScriptResource => "~/Plugins/RasteBazar/Scripts/BaseScript.js";
+
+        /// <summary>
+        /// Gets the path of Customers.js file
+        /// </summary>
+        public static string CustomersScriptResource => "~/Plugins/RasteBazar/Scripts/Customers.jsx";
 
         /// <summary>
         /// Gets the link of react.development.js file

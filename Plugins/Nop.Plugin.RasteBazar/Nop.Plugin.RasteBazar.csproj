@@ -8,7 +8,13 @@
 
 	<ItemGroup>
 	  <None Remove="Views\Configure.cshtml" />
+	  <None Remove="Views\Pages\AboutStore.cshtml" />
+	  <None Remove="Views\Pages\Customers.cshtml" />
 	  <None Remove="Views\Pages\Dashbord.cshtml" />
+	  <None Remove="Views\Pages\Factor.cshtml" />
+	  <None Remove="Views\Pages\Products.cshtml" />
+	  <None Remove="Views\Pages\Reports.cshtml" />
+	  <None Remove="Views\Pages\Settings.cshtml" />
 	  <None Remove="Views\PublicInfo.cshtml" />
 	  <None Remove="Views\_ViewImports.cshtml" />
 	</ItemGroup>
@@ -16,6 +22,24 @@
 	<ItemGroup>
 	  <Content Include="Views\Configure.cshtml">
 	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Views\Pages\Settings.cshtml">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Views\Pages\AboutStore.cshtml">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Views\Pages\Reports.cshtml">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Views\Pages\Customers.cshtml">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Views\Pages\Products.cshtml">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Views\Pages\Factor.cshtml">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </Content>
 	  <Content Include="Views\Pages\Dashbord.cshtml">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -37,16 +61,27 @@
 	</ItemGroup>
 	
 	<ItemGroup>
+	  <None Update="Content\Products.css">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
 	  <None Update="logo.png">
 	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 	  </None>
 	  <None Update="plugin.json">
 	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 	  </None>
-	</ItemGroup>
-	
-	<ItemGroup>
-	  <Folder Include="Content\" />
+	  <None Update="Scripts\BaseScript.js">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	  <None Update="Scripts\Customers.js">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	  <None Update="Scripts\Customers.jsx">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	  <None Update="Scripts\Main.js">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
 	</ItemGroup>
 	
 	<ItemGroup>
