@@ -550,6 +550,11 @@ namespace Nop.Data.DataProviders
             return DataSettingsManager.LoadSettings().ConnectionString;
         }
 
+        public void Dispose()
+        {
+            throw new NotImplementedException();
+        }
+
         /// <summary>
         /// Name of database provider
         /// </summary>

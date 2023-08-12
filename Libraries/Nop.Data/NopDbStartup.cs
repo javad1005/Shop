@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Nop.Core.Infrastructure;
+using Nop.Data.DataProviders;
 using Nop.Data.Mapping;
 using Nop.Data.Migrations;
 
@@ -59,11 +60,13 @@ namespace Nop.Data
 
             if (!DataSettingsManager.IsDatabaseInstalled())
                 return;
-
+            
             using var scope = services.BuildServiceProvider().CreateScope();
             var runner = scope.ServiceProvider.GetRequiredService<IMigrationManager>();
             foreach (var assembly in mAssemblies)
                 runner.ApplyUpMigrations(assembly, MigrationProcessType.NoDependencies);
+
+            
         }
 
         /// <summary>

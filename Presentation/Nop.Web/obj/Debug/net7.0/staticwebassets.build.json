@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TAYyBk8aZ9w1gT+S0rHqLR84gGu/ua+GUGRy76GJLoQ=",
+  "Hash": "koxzoFMwZY4HDJw1olNLAdCVpdoAtCX1ArAI1ZHlUwc=",
   "Source": "Nop.Web",
   "BasePath": "_content/Nop.Web",
   "Mode": "Default",
@@ -7072,23 +7072,6 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\0000020_build-your-own-computer_415.jpeg"
     },
     {
-      "Identity": "C:\\Users\\HP\\Desktop\\Raste_Bazar\\Shop\\Presentation\\Nop.Web\\wwwroot\\images\\thumbs\\0000020_build-your-own-computer_75.jpeg",
-      "SourceId": "Nop.Web",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HP\\Desktop\\Raste_Bazar\\Shop\\Presentation\\Nop.Web\\wwwroot\\",
-      "BasePath": "_content/Nop.Web",
-      "RelativePath": "images/thumbs/0000020_build-your-own-computer_75.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\thumbs\\0000020_build-your-own-computer_75.jpeg"
-    },
-    {
       "Identity": "C:\\Users\\HP\\Desktop\\Raste_Bazar\\Shop\\Presentation\\Nop.Web\\wwwroot\\images\\thumbs\\0000021_build-your-own-computer.jpeg",
       "SourceId": "Nop.Web",
       "SourceType": "Discovered",
@@ -7123,23 +7106,6 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\0000022_digital-storm-vanquish-3-custom-performance-pc.jpeg"
     },
     {
-      "Identity": "C:\\Users\\HP\\Desktop\\Raste_Bazar\\Shop\\Presentation\\Nop.Web\\wwwroot\\images\\thumbs\\0000022_digital-storm-vanquish-3-custom-performance-pc_75.jpeg",
-      "SourceId": "Nop.Web",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HP\\Desktop\\Raste_Bazar\\Shop\\Presentation\\Nop.Web\\wwwroot\\",
-      "BasePath": "_content/Nop.Web",
-      "RelativePath": "images/thumbs/0000022_digital-storm-vanquish-3-custom-performance-pc_75.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\thumbs\\0000022_digital-storm-vanquish-3-custom-performance-pc_75.jpeg"
-    },
-    {
       "Identity": "C:\\Users\\HP\\Desktop\\Raste_Bazar\\Shop\\Presentation\\Nop.Web\\wwwroot\\images\\thumbs\\0000023_lenovo-ideacentre-600-all-in-one-pc.jpeg",
       "SourceId": "Nop.Web",
       "SourceType": "Discovered",
@@ -7155,23 +7121,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\0000023_lenovo-ideacentre-600-all-in-one-pc.jpeg"
-    },
-    {
-      "Identity": "C:\\Users\\HP\\Desktop\\Raste_Bazar\\Shop\\Presentation\\Nop.Web\\wwwroot\\images\\thumbs\\0000023_lenovo-ideacentre-600-all-in-one-pc_75.jpeg",
-      "SourceId": "Nop.Web",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HP\\Desktop\\Raste_Bazar\\Shop\\Presentation\\Nop.Web\\wwwroot\\",
-      "BasePath": "_content/Nop.Web",
-      "RelativePath": "images/thumbs/0000023_lenovo-ideacentre-600-all-in-one-pc_75.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\thumbs\\0000023_lenovo-ideacentre-600-all-in-one-pc_75.jpeg"
     },
     {
       "Identity": "C:\\Users\\HP\\Desktop\\Raste_Bazar\\Shop\\Presentation\\Nop.Web\\wwwroot\\images\\thumbs\\0000024_apple-macbook-pro-13-inch.jpeg",
@@ -7208,23 +7157,6 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\0000024_apple-macbook-pro-13-inch_415.jpeg"
     },
     {
-      "Identity": "C:\\Users\\HP\\Desktop\\Raste_Bazar\\Shop\\Presentation\\Nop.Web\\wwwroot\\images\\thumbs\\0000024_apple-macbook-pro-13-inch_75.jpeg",
-      "SourceId": "Nop.Web",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HP\\Desktop\\Raste_Bazar\\Shop\\Presentation\\Nop.Web\\wwwroot\\",
-      "BasePath": "_content/Nop.Web",
-      "RelativePath": "images/thumbs/0000024_apple-macbook-pro-13-inch_75.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\thumbs\\0000024_apple-macbook-pro-13-inch_75.jpeg"
-    },
-    {
       "Identity": "C:\\Users\\HP\\Desktop\\Raste_Bazar\\Shop\\Presentation\\Nop.Web\\wwwroot\\images\\thumbs\\0000025_apple-macbook-pro-13-inch.jpeg",
       "SourceId": "Nop.Web",
       "SourceType": "Discovered",
@@ -7259,23 +7191,6 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\0000026_asus-n551jk-xo076h-laptop.jpeg"
     },
     {
-      "Identity": "C:\\Users\\HP\\Desktop\\Raste_Bazar\\Shop\\Presentation\\Nop.Web\\wwwroot\\images\\thumbs\\0000026_asus-n551jk-xo076h-laptop_75.jpeg",
-      "SourceId": "Nop.Web",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HP\\Desktop\\Raste_Bazar\\Shop\\Presentation\\Nop.Web\\wwwroot\\",
-      "BasePath": "_content/Nop.Web",
-      "RelativePath": "images/thumbs/0000026_asus-n551jk-xo076h-laptop_75.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\thumbs\\0000026_asus-n551jk-xo076h-laptop_75.jpeg"
-    },
-    {
       "Identity": "C:\\Users\\HP\\Desktop\\Raste_Bazar\\Shop\\Presentation\\Nop.Web\\wwwroot\\images\\thumbs\\0000027_samsung-series-9-np900x4c-premium-ultrabook.jpeg",
       "SourceId": "Nop.Web",
       "SourceType": "Discovered",
@@ -7293,23 +7208,6 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\0000027_samsung-series-9-np900x4c-premium-ultrabook.jpeg"
     },
     {
-      "Identity": "C:\\Users\\HP\\Desktop\\Raste_Bazar\\Shop\\Presentation\\Nop.Web\\wwwroot\\images\\thumbs\\0000027_samsung-series-9-np900x4c-premium-ultrabook_75.jpeg",
-      "SourceId": "Nop.Web",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HP\\Desktop\\Raste_Bazar\\Shop\\Presentation\\Nop.Web\\wwwroot\\",
-      "BasePath": "_content/Nop.Web",
-      "RelativePath": "images/thumbs/0000027_samsung-series-9-np900x4c-premium-ultrabook_75.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\thumbs\\0000027_samsung-series-9-np900x4c-premium-ultrabook_75.jpeg"
-    },
-    {
       "Identity": "C:\\Users\\HP\\Desktop\\Raste_Bazar\\Shop\\Presentation\\Nop.Web\\wwwroot\\images\\thumbs\\0000028_hp-spectre-xt-pro-ultrabook.jpeg",
       "SourceId": "Nop.Web",
       "SourceType": "Discovered",
@@ -7325,23 +7223,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\0000028_hp-spectre-xt-pro-ultrabook.jpeg"
-    },
-    {
-      "Identity": "C:\\Users\\HP\\Desktop\\Raste_Bazar\\Shop\\Presentation\\Nop.Web\\wwwroot\\images\\thumbs\\0000028_hp-spectre-xt-pro-ultrabook_75.jpeg",
-      "SourceId": "Nop.Web",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HP\\Desktop\\Raste_Bazar\\Shop\\Presentation\\Nop.Web\\wwwroot\\",
-      "BasePath": "_content/Nop.Web",
-      "RelativePath": "images/thumbs/0000028_hp-spectre-xt-pro-ultrabook_75.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\thumbs\\0000028_hp-spectre-xt-pro-ultrabook_75.jpeg"
     },
     {
       "Identity": "C:\\Users\\HP\\Desktop\\Raste_Bazar\\Shop\\Presentation\\Nop.Web\\wwwroot\\images\\thumbs\\0000029_hp-spectre-xt-pro-ultrabook.jpeg",
@@ -7378,23 +7259,6 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\0000030_hp-envy-6-1180ca-156-inch-sleekbook.jpeg"
     },
     {
-      "Identity": "C:\\Users\\HP\\Desktop\\Raste_Bazar\\Shop\\Presentation\\Nop.Web\\wwwroot\\images\\thumbs\\0000030_hp-envy-6-1180ca-156-inch-sleekbook_75.jpeg",
-      "SourceId": "Nop.Web",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HP\\Desktop\\Raste_Bazar\\Shop\\Presentation\\Nop.Web\\wwwroot\\",
-      "BasePath": "_content/Nop.Web",
-      "RelativePath": "images/thumbs/0000030_hp-envy-6-1180ca-156-inch-sleekbook_75.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\thumbs\\0000030_hp-envy-6-1180ca-156-inch-sleekbook_75.jpeg"
-    },
-    {
       "Identity": "C:\\Users\\HP\\Desktop\\Raste_Bazar\\Shop\\Presentation\\Nop.Web\\wwwroot\\images\\thumbs\\0000031_lenovo-thinkpad-x1-carbon-laptop.jpeg",
       "SourceId": "Nop.Web",
       "SourceType": "Discovered",
@@ -7410,23 +7274,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\0000031_lenovo-thinkpad-x1-carbon-laptop.jpeg"
-    },
-    {
-      "Identity": "C:\\Users\\HP\\Desktop\\Raste_Bazar\\Shop\\Presentation\\Nop.Web\\wwwroot\\images\\thumbs\\0000031_lenovo-thinkpad-x1-carbon-laptop_75.jpeg",
-      "SourceId": "Nop.Web",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HP\\Desktop\\Raste_Bazar\\Shop\\Presentation\\Nop.Web\\wwwroot\\",
-      "BasePath": "_content/Nop.Web",
-      "RelativePath": "images/thumbs/0000031_lenovo-thinkpad-x1-carbon-laptop_75.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\thumbs\\0000031_lenovo-thinkpad-x1-carbon-laptop_75.jpeg"
     },
     {
       "Identity": "C:\\Users\\HP\\Desktop\\Raste_Bazar\\Shop\\Presentation\\Nop.Web\\wwwroot\\images\\thumbs\\0000032_adobe-photoshop-cs4.jpeg",
@@ -7446,23 +7293,6 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\0000032_adobe-photoshop-cs4.jpeg"
     },
     {
-      "Identity": "C:\\Users\\HP\\Desktop\\Raste_Bazar\\Shop\\Presentation\\Nop.Web\\wwwroot\\images\\thumbs\\0000032_adobe-photoshop-cs4_75.jpeg",
-      "SourceId": "Nop.Web",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HP\\Desktop\\Raste_Bazar\\Shop\\Presentation\\Nop.Web\\wwwroot\\",
-      "BasePath": "_content/Nop.Web",
-      "RelativePath": "images/thumbs/0000032_adobe-photoshop-cs4_75.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\thumbs\\0000032_adobe-photoshop-cs4_75.jpeg"
-    },
-    {
       "Identity": "C:\\Users\\HP\\Desktop\\Raste_Bazar\\Shop\\Presentation\\Nop.Web\\wwwroot\\images\\thumbs\\0000033_windows-8-pro.jpeg",
       "SourceId": "Nop.Web",
       "SourceType": "Discovered",
@@ -7478,23 +7308,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\0000033_windows-8-pro.jpeg"
-    },
-    {
-      "Identity": "C:\\Users\\HP\\Desktop\\Raste_Bazar\\Shop\\Presentation\\Nop.Web\\wwwroot\\images\\thumbs\\0000033_windows-8-pro_75.jpeg",
-      "SourceId": "Nop.Web",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HP\\Desktop\\Raste_Bazar\\Shop\\Presentation\\Nop.Web\\wwwroot\\",
-      "BasePath": "_content/Nop.Web",
-      "RelativePath": "images/thumbs/0000033_windows-8-pro_75.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\thumbs\\0000033_windows-8-pro_75.jpeg"
     },
     {
       "Identity": "C:\\Users\\HP\\Desktop\\Raste_Bazar\\Shop\\Presentation\\Nop.Web\\wwwroot\\images\\thumbs\\0000034_sound-forge-pro-11-recurring.jpeg",
@@ -7514,23 +7327,6 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\0000034_sound-forge-pro-11-recurring.jpeg"
     },
     {
-      "Identity": "C:\\Users\\HP\\Desktop\\Raste_Bazar\\Shop\\Presentation\\Nop.Web\\wwwroot\\images\\thumbs\\0000034_sound-forge-pro-11-recurring_75.jpeg",
-      "SourceId": "Nop.Web",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HP\\Desktop\\Raste_Bazar\\Shop\\Presentation\\Nop.Web\\wwwroot\\",
-      "BasePath": "_content/Nop.Web",
-      "RelativePath": "images/thumbs/0000034_sound-forge-pro-11-recurring_75.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\thumbs\\0000034_sound-forge-pro-11-recurring_75.jpeg"
-    },
-    {
       "Identity": "C:\\Users\\HP\\Desktop\\Raste_Bazar\\Shop\\Presentation\\Nop.Web\\wwwroot\\images\\thumbs\\0000035_nikon-d5500-dslr.jpeg",
       "SourceId": "Nop.Web",
       "SourceType": "Discovered",
@@ -7546,23 +7342,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\0000035_nikon-d5500-dslr.jpeg"
-    },
-    {
-      "Identity": "C:\\Users\\HP\\Desktop\\Raste_Bazar\\Shop\\Presentation\\Nop.Web\\wwwroot\\images\\thumbs\\0000035_nikon-d5500-dslr_75.jpeg",
-      "SourceId": "Nop.Web",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HP\\Desktop\\Raste_Bazar\\Shop\\Presentation\\Nop.Web\\wwwroot\\",
-      "BasePath": "_content/Nop.Web",
-      "RelativePath": "images/thumbs/0000035_nikon-d5500-dslr_75.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\thumbs\\0000035_nikon-d5500-dslr_75.jpeg"
     },
     {
       "Identity": "C:\\Users\\HP\\Desktop\\Raste_Bazar\\Shop\\Presentation\\Nop.Web\\wwwroot\\images\\thumbs\\0000036_nikon-d5500-dslr.jpeg",
@@ -7599,23 +7378,6 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\0000037_nikon-d5500-dslr-black.jpeg"
     },
     {
-      "Identity": "C:\\Users\\HP\\Desktop\\Raste_Bazar\\Shop\\Presentation\\Nop.Web\\wwwroot\\images\\thumbs\\0000037_nikon-d5500-dslr-black_75.jpeg",
-      "SourceId": "Nop.Web",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HP\\Desktop\\Raste_Bazar\\Shop\\Presentation\\Nop.Web\\wwwroot\\",
-      "BasePath": "_content/Nop.Web",
-      "RelativePath": "images/thumbs/0000037_nikon-d5500-dslr-black_75.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\thumbs\\0000037_nikon-d5500-dslr-black_75.jpeg"
-    },
-    {
       "Identity": "C:\\Users\\HP\\Desktop\\Raste_Bazar\\Shop\\Presentation\\Nop.Web\\wwwroot\\images\\thumbs\\0000038_nikon-d5500-dslr-red.jpeg",
       "SourceId": "Nop.Web",
       "SourceType": "Discovered",
@@ -7631,23 +7393,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\0000038_nikon-d5500-dslr-red.jpeg"
-    },
-    {
-      "Identity": "C:\\Users\\HP\\Desktop\\Raste_Bazar\\Shop\\Presentation\\Nop.Web\\wwwroot\\images\\thumbs\\0000038_nikon-d5500-dslr-red_75.jpeg",
-      "SourceId": "Nop.Web",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HP\\Desktop\\Raste_Bazar\\Shop\\Presentation\\Nop.Web\\wwwroot\\",
-      "BasePath": "_content/Nop.Web",
-      "RelativePath": "images/thumbs/0000038_nikon-d5500-dslr-red_75.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\thumbs\\0000038_nikon-d5500-dslr-red_75.jpeg"
     },
     {
       "Identity": "C:\\Users\\HP\\Desktop\\Raste_Bazar\\Shop\\Presentation\\Nop.Web\\wwwroot\\images\\thumbs\\0000039_leica-t-mirrorless-digital-camera.jpeg",

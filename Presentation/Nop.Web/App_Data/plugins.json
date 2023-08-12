@@ -4,6 +4,10 @@
   ],
   "InstalledPlugins": [
     {
+      "SystemName": "Nop.Plugin.Api",
+      "Version": "4.5.0"
+    },
+    {
       "SystemName": "Payments.PayPalCommerce",
       "Version": "1.16"
     },
@@ -48,6 +52,10 @@
       "Version": "1.47"
     },
     {
+      "SystemName": "RasteBazar",
+      "Version": "1.0"
+    },
+    {
       "SystemName": "Shipping.FixedByWeightByTotal",
       "Version": "2.36"
     },
@@ -86,21 +94,11 @@
     {
       "SystemName": "ExternalAuth.Facebook",
       "Version": "1.80"
-    },
-    {
-      "SystemName": "Nop.Plugin.Api",
-      "Version": "4.5.0"
-    },
-    {
-      "SystemName": "RasteBazar",
-      "Version": "1.0"
-    },
-    {
-      "SystemName": "Nop.Plugin.MyReactApp",
-      "Version": "1.0"
     }
   ],
   "PluginNamesToUninstall": [],
-  "PluginNamesToDelete": [],
+  "PluginNamesToDelete": [
+    "Nop.Plugin.MyReactApp"
+  ],
   "PluginNamesToInstall": []
 }

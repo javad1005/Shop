@@ -23,6 +23,8 @@
 
         public bool HideList { get; set; }
 
+        public bool UpdateDataBase { get; set; } = false;
+
         #endregion
     }
 }

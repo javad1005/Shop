@@ -76,10 +76,7 @@
 	  <None Update="Scripts\Customers.js">
 	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 	  </None>
-	  <None Update="Scripts\Customers.jsx">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Scripts\Main.js">
+	  <None Update="Scripts\Products.js">
 	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 	  </None>
 	</ItemGroup>

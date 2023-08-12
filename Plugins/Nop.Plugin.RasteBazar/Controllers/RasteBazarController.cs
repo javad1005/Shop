@@ -14,6 +14,7 @@ using Nop.Plugin.RasteBazar.Models;
 using Nop.Core.Caching;
 using Nop.Services.Common;
 using Nop.Services.Stores;
+using Nop.Core.Infrastructure;
 
 namespace Nop.Plugin.RasteBazar.Controllers
 {

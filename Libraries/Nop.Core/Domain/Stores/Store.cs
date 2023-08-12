@@ -87,5 +87,10 @@ namespace Nop.Core.Domain.Stores
         /// Gets or sets a value indicating whether the entity has been deleted
         /// </summary>
         public bool Deleted { get; set; }
+
+        /// <summary>
+        /// Gets or sets a Raste Bazar Id
+        /// </summary>
+        public int RasteBazarId { get; set; }
     }
 }

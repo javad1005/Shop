@@ -1,18 +1,11 @@
-﻿{
+{
   "Group": "Castom",
   "FriendlyName": "RasteBazar",
-  "SupportedVersions": [
-    "4.60"
-  ],
+  "SystemName": "RasteBazar",
+  "Version": "1.0",
+  "SupportedVersions": [ "4.60" ],
   "Author": "RasteBazar team",
   "DisplayOrder": 1,
   "FileName": "Nop.Plugin.RasteBazar.dll",
-  "Description": "This plugin enables integration with RasteBazar",
-  "LimitedToStores": [],
-  "LimitedToCustomerRoles": [
-    1
-  ],
-  "DependsOnSystemNames": [],
-  "SystemName": "RasteBazar",
-  "Version": "1.0"
+  "Description": "This plugin enables integration with RasteBazar"
 }

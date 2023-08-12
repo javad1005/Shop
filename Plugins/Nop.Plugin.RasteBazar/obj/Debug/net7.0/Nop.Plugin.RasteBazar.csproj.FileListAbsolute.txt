@@ -1265,7 +1265,6 @@ C:\Users\HP\Desktop\Raste_Bazar\Shop\Presentation\Nop.Web\Plugins\RasteBazar\Con
 C:\Users\HP\Desktop\Raste_Bazar\Shop\Presentation\Nop.Web\Plugins\RasteBazar\logo.png
 C:\Users\HP\Desktop\Raste_Bazar\Shop\Presentation\Nop.Web\Plugins\RasteBazar\plugin.json
 C:\Users\HP\Desktop\Raste_Bazar\Shop\Presentation\Nop.Web\Plugins\RasteBazar\Scripts\BaseScript.js
-C:\Users\HP\Desktop\Raste_Bazar\Shop\Presentation\Nop.Web\Plugins\RasteBazar\Scripts\Main.js
 C:\Users\HP\Desktop\Raste_Bazar\Shop\Presentation\Nop.Web\Plugins\RasteBazar\Nop.Plugin.RasteBazar.deps.json
 C:\Users\HP\Desktop\Raste_Bazar\Shop\Presentation\Nop.Web\Plugins\RasteBazar\Nop.Plugin.RasteBazar.dll
 C:\Users\HP\Desktop\Raste_Bazar\Shop\Presentation\Nop.Web\Plugins\RasteBazar\Nop.Plugin.RasteBazar.pdb
@@ -1576,4 +1575,4 @@ C:\Users\HP\Desktop\Raste_Bazar\Shop\Plugins\Nop.Plugin.RasteBazar\obj\Debug\net
 C:\Users\HP\Desktop\Raste_Bazar\Shop\Plugins\Nop.Plugin.RasteBazar\obj\Debug\net7.0\Nop.Plugin.RasteBazar.pdb
 C:\Users\HP\Desktop\Raste_Bazar\Shop\Plugins\Nop.Plugin.RasteBazar\obj\Debug\net7.0\ref\Nop.Plugin.RasteBazar.dll
 C:\Users\HP\Desktop\Raste_Bazar\Shop\Presentation\Nop.Web\Plugins\RasteBazar\Scripts\Customers.js
-C:\Users\HP\Desktop\Raste_Bazar\Shop\Presentation\Nop.Web\Plugins\RasteBazar\Scripts\Customers.jsx
+C:\Users\HP\Desktop\Raste_Bazar\Shop\Presentation\Nop.Web\Plugins\RasteBazar\Scripts\Products.js

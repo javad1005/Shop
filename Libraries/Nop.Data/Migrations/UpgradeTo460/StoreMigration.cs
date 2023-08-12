@@ -53,6 +53,12 @@ namespace Nop.Data.Migrations.UpgradeTo460
                     .AddColumn(nameof(Store.HomepageTitle)).AsString(int.MaxValue).Nullable();
             else
                 Alter.Table(nameof(Store)).AlterColumn(nameof(Store.HomepageTitle)).AsString(int.MaxValue).Nullable();
+
+            if (!Schema.Table(nameof(Store)).Column(nameof(Store.RasteBazarId)).Exists())
+            {
+                //add new column
+                Create.Column(nameof(Store.RasteBazarId)).OnTable(nameof(Store)).AsInt32().Nullable();
+            }
         }
     }
 }

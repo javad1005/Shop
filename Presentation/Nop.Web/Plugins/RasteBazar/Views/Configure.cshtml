@@ -3,9 +3,11 @@
     Layout = "_ConfigurePlugin";
 }
 <div id="root">
-    <h1>Hello Raste Bazar</h1>
-    <form>
+    <form asp-controller="RasteBazar" asp-action="Configure" method="post">
+        <h1>Hello Raste Bazar</h1>
         <input type="text" name="PageName" />
         <input type="text" name="PageTitel" />
+        <input type="checkbox" name="UpdateDataBase" />
+        <input type="submit" value="update data base !!" />
     </form>
 </div>

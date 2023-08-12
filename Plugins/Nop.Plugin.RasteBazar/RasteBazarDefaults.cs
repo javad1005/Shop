@@ -93,9 +93,9 @@ namespace Nop.Plugin.RasteBazar
         public static string ProductsCssResource => "~/Plugins/RasteBazar/Content/Products.css";
 
         /// <summary>
-        /// Gets the path of Main.js file
+        /// Gets the path of Products.js file
         /// </summary>
-        public static string ProductsScriptResource => "~/Plugins/RasteBazar/Scripts/Main.js";
+        public static string ProductsScriptResource => "~/Plugins/RasteBazar/Scripts/Products.js";
 
         /// <summary>
         /// Gets the path of BaseScript.js file
