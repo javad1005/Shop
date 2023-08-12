@@ -60,6 +60,7 @@ function GetProducts() {
         }
     });
 }
+
 function GetProductById(id) {
     var obj = {};
     var _url = "/api/products/" + id;
