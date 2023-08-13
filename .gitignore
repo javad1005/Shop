@@ -6,3 +6,7 @@ obj
 packages
 **/bin/*
 **/obj/*
+/Presentation/Nop.Web/obj
+/Presentation/Nop.Web/bin
+/Presentation/Nop.Web.Framework/obj
+/Presentation/Nop.Web.Framework/bin
