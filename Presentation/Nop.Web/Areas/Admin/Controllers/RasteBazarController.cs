@@ -9,6 +9,7 @@ using Nop.Core;
 using Nop.Core.Caching;
 using Nop.Core.Domain.Catalog;
 using Nop.Core.Domain.Discounts;
+using Nop.Core.Domain.RasteBazars;
 using Nop.Services.Catalog;
 using Nop.Services.Customers;
 using Nop.Services.Discounts;
@@ -26,7 +27,6 @@ using Nop.Web.Areas.Admin.Models.Catalog;
 using Nop.Web.Framework.Controllers;
 using Nop.Web.Framework.Mvc;
 using Nop.Web.Framework.Mvc.Filters;
-using Nop.Web.Models.Catalog;
 
 namespace Nop.Web.Areas.Admin.Controllers
 {
@@ -34,7 +34,12 @@ namespace Nop.Web.Areas.Admin.Controllers
     {
         #region Fields
 
+        private readonly IRasteBazarModelFactory _rasteBazarModelFactory;
         private readonly IPermissionService _permissionService;
+        private readonly IRasteBazarService _rasteBazarService;
+        private readonly ILocalizationService _localizationService;
+        private readonly ILocalizedEntityService _localizedEntityService;
+        private readonly INotificationService _notificationService;
 
         #endregion
 
@@ -51,6 +56,31 @@ namespace Nop.Web.Areas.Admin.Controllers
 
         #region Utilities
 
+        protected virtual async Task UpdateLocalesAsync(RasteBazar rasteBazar, RasteBazarModel model)
+        {
+            foreach (var localized in model.Locales)
+            {
+                await _localizedEntityService.SaveLocalizedValueAsync(rasteBazar,
+                    x => x.Name,
+                    localized.Name,
+                    localized.LanguageId);
+
+                await _localizedEntityService.SaveLocalizedValueAsync(rasteBazar,
+                    x => x.Description,
+                    localized.Description,
+                    localized.LanguageId);
+
+                await _localizedEntityService.SaveLocalizedValueAsync(rasteBazar,
+                    x => x.MetaKeywords,
+                    localized.MetaKeywords,
+                    localized.LanguageId);
+
+                await _localizedEntityService.SaveLocalizedValueAsync(rasteBazar,
+                    x => x.MetaTitle,
+                    localized.MetaTitle,
+                    localized.LanguageId);
+            }
+        }
 
         #endregion
 
@@ -61,74 +91,56 @@ namespace Nop.Web.Areas.Admin.Controllers
 
         #region Create / Edit / Delete
 
-        //public virtual async Task<IActionResult> Create()
-        //{
-        //    if (!await _permissionService.AuthorizeAsync(StandardPermissionProvider.ManageRasteBazar))
-        //        return AccessDeniedView();
+        public virtual async Task<IActionResult> Create()
+        {
+            if (!await _permissionService.AuthorizeAsync(StandardPermissionProvider.ManageRasteBazar))
+                return AccessDeniedView();
 
-        //    //prepare model
-        //    var model = await _categoryModelFactory.PrepareCategoryModelAsync(new CategoryModel(), null);
+            //prepare model
+            var model = await _rasteBazarModelFactory.PrepareRasteBazarModelAsync(new RasteBazarModel(), null);
 
-        //    return View(model);
-        //}
+            return View(model);
+        }
 
-        //[HttpPost, ParameterBasedOnFormName("save-continue", "continueEditing")]
-        //public virtual async Task<IActionResult> Create(RasteBazarModel model, bool continueEditing)
-        //{
-        //    if (!await _permissionService.AuthorizeAsync(StandardPermissionProvider.ManageCategories))
-        //        return AccessDeniedView();
+        [HttpPost, ParameterBasedOnFormName("save-continue", "continueEditing")]
+        public virtual async Task<IActionResult> Create(RasteBazarModel model, bool continueEditing)
+        {
+            if (!await _permissionService.AuthorizeAsync(StandardPermissionProvider.ManageCategories))
+                return AccessDeniedView();
 
-        //    if (ModelState.IsValid)
-        //    {
-        //        var category = model.ToEntity<Category>();
-        //        category.CreatedOnUtc = DateTime.UtcNow;
-        //        category.UpdatedOnUtc = DateTime.UtcNow;
-        //        await _categoryService.InsertCategoryAsync(category);
+            if (ModelState.IsValid)
+            {
+                var rasteBazar = model.ToEntity<RasteBazar>();
+                rasteBazar.CreatedOnUtc = DateTime.UtcNow;
+                rasteBazar.UpdatedOnUtc = DateTime.UtcNow;
+                await _rasteBazarService.InsertRasteBazarAsync(rasteBazar);
 
-        //        //search engine name
-        //        model.SeName = await _urlRecordService.ValidateSeNameAsync(category, model.SeName, category.Name, true);
-        //        await _urlRecordService.SaveSlugAsync(category, model.SeName, 0);
+                //locales
+                await UpdateLocalesAsync(rasteBazar, model);
 
-        //        //locales
-        //        await UpdateLocalesAsync(category, model);
+                await _rasteBazarService.UpdateRasteBazarAsync(rasteBazar);
 
-        //        //discounts
-        //        var allDiscounts = await _discountService.GetAllDiscountsAsync(DiscountType.AssignedToCategories, showHidden: true, isActive: null);
-        //        foreach (var discount in allDiscounts)
-        //        {
-        //            if (model.SelectedDiscountIds != null && model.SelectedDiscountIds.Contains(discount.Id))
-        //                await _categoryService.InsertDiscountCategoryMappingAsync(new DiscountCategoryMapping { DiscountId = discount.Id, EntityId = category.Id });
-        //        }
+                //update picture seo file name
+                //await UpdatePictureSeoNamesAsync(rasteBazar);
 
-        //        await _categoryService.UpdateCategoryAsync(category);
+                //activity log
+                //await _customerActivityService.InsertActivityAsync("AddNewCategory",
+                //    string.Format(await _localizationService.GetResourceAsync("ActivityLog.AddNewCategory"), rasteBazar.Name), rasteBazar);
 
-        //        //update picture seo file name
-        //        await UpdatePictureSeoNamesAsync(category);
+                _notificationService.SuccessNotification(await _localizationService.GetResourceAsync("Admin.Catalog.Categories.Added"));
 
-        //        //ACL (customer roles)
-        //        await SaveCategoryAclAsync(category, model);
+                if (!continueEditing)
+                    return RedirectToAction("List");
 
-        //        //stores
-        //        await SaveStoreMappingsAsync(category, model);
+                return RedirectToAction("Edit", new { id = rasteBazar.Id });
+            }
 
-        //        //activity log
-        //        await _customerActivityService.InsertActivityAsync("AddNewCategory",
-        //            string.Format(await _localizationService.GetResourceAsync("ActivityLog.AddNewCategory"), category.Name), category);
+            //prepare model
+            //model = await _rasteBazarModelFactory.PrepareCategoryModelAsync(model, null, true);
 
-        //        _notificationService.SuccessNotification(await _localizationService.GetResourceAsync("Admin.Catalog.Categories.Added"));
-
-        //        if (!continueEditing)
-        //            return RedirectToAction("List");
-
-        //        return RedirectToAction("Edit", new { id = category.Id });
-        //    }
-
-        //    //prepare model
-        //    model = await _categoryModelFactory.PrepareCategoryModelAsync(model, null, true);
-
-        //    //if we got this far, something failed, redisplay form
-        //    return View(model);
-        //}
+            //if we got this far, something failed, redisplay form
+            return View(model);
+        }
 
         //public virtual async Task<IActionResult> Edit(int id)
         //{
@@ -136,12 +148,12 @@ namespace Nop.Web.Areas.Admin.Controllers
         //        return AccessDeniedView();
 
         //    //try to get a category with the specified id
-        //    var category = await _categoryService.GetCategoryByIdAsync(id);
+        //    var category = await _rasteBazarService.GetCategoryByIdAsync(id);
         //    if (category == null || category.Deleted)
         //        return RedirectToAction("List");
 
         //    //prepare model
-        //    var model = await _categoryModelFactory.PrepareCategoryModelAsync(null, category);
+        //    var model = await _rasteBazarModelFactory.PrepareCategoryModelAsync(null, category);
 
         //    return View(model);
         //}
@@ -153,7 +165,7 @@ namespace Nop.Web.Areas.Admin.Controllers
         //        return AccessDeniedView();
 
         //    //try to get a category with the specified id
-        //    var category = await _categoryService.GetCategoryByIdAsync(model.Id);
+        //    var category = await _rasteBazarService.GetCategoryByIdAsync(model.Id);
         //    if (category == null || category.Deleted)
         //        return RedirectToAction("List");
 
@@ -170,7 +182,7 @@ namespace Nop.Web.Areas.Admin.Controllers
 
         //        category = model.ToEntity(category);
         //        category.UpdatedOnUtc = DateTime.UtcNow;
-        //        await _categoryService.UpdateCategoryAsync(category);
+        //        await _rasteBazarService.UpdateCategoryAsync(category);
 
         //        //search engine name
         //        model.SeName = await _urlRecordService.ValidateSeNameAsync(category, model.SeName, category.Name, true);
@@ -186,18 +198,18 @@ namespace Nop.Web.Areas.Admin.Controllers
         //            if (model.SelectedDiscountIds != null && model.SelectedDiscountIds.Contains(discount.Id))
         //            {
         //                //new discount
-        //                if (await _categoryService.GetDiscountAppliedToCategoryAsync(category.Id, discount.Id) is null)
-        //                    await _categoryService.InsertDiscountCategoryMappingAsync(new DiscountCategoryMapping { DiscountId = discount.Id, EntityId = category.Id });
+        //                if (await _rasteBazarService.GetDiscountAppliedToCategoryAsync(category.Id, discount.Id) is null)
+        //                    await _rasteBazarService.InsertDiscountCategoryMappingAsync(new DiscountCategoryMapping { DiscountId = discount.Id, EntityId = category.Id });
         //            }
         //            else
         //            {
         //                //remove discount
-        //                if (await _categoryService.GetDiscountAppliedToCategoryAsync(category.Id, discount.Id) is DiscountCategoryMapping mapping)
-        //                    await _categoryService.DeleteDiscountCategoryMappingAsync(mapping);
+        //                if (await _rasteBazarService.GetDiscountAppliedToCategoryAsync(category.Id, discount.Id) is DiscountCategoryMapping mapping)
+        //                    await _rasteBazarService.DeleteDiscountCategoryMappingAsync(mapping);
         //            }
         //        }
 
-        //        await _categoryService.UpdateCategoryAsync(category);
+        //        await _rasteBazarService.UpdateCategoryAsync(category);
 
         //        //delete an old picture (if deleted or updated)
         //        if (prevPictureId > 0 && prevPictureId != category.PictureId)
@@ -229,7 +241,7 @@ namespace Nop.Web.Areas.Admin.Controllers
         //    }
 
         //    //prepare model
-        //    model = await _categoryModelFactory.PrepareCategoryModelAsync(model, category, true);
+        //    model = await _rasteBazarModelFactory.PrepareCategoryModelAsync(model, category, true);
 
         //    //if we got this far, something failed, redisplay form
         //    return View(model);
@@ -242,11 +254,11 @@ namespace Nop.Web.Areas.Admin.Controllers
         //        return AccessDeniedView();
 
         //    //try to get a category with the specified id
-        //    var category = await _categoryService.GetCategoryByIdAsync(id);
+        //    var category = await _rasteBazarService.GetCategoryByIdAsync(id);
         //    if (category == null)
         //        return RedirectToAction("List");
 
-        //    await _categoryService.DeleteCategoryAsync(category);
+        //    await _rasteBazarService.DeleteCategoryAsync(category);
 
         //    //activity log
         //    await _customerActivityService.InsertActivityAsync("DeleteCategory",
@@ -266,7 +278,7 @@ namespace Nop.Web.Areas.Admin.Controllers
         //    if (selectedIds == null || selectedIds.Count == 0)
         //        return NoContent();
 
-        //    await _categoryService.DeleteCategoriesAsync(await (await _categoryService.GetCategoriesByIdsAsync(selectedIds.ToArray())).WhereAwait(async p => await _workContext.GetCurrentVendorAsync() == null).ToListAsync());
+        //    await _rasteBazarService.DeleteCategoriesAsync(await (await _rasteBazarService.GetCategoriesByIdsAsync(selectedIds.ToArray())).WhereAwait(async p => await _workContext.GetCurrentVendorAsync() == null).ToListAsync());
 
         //    return Json(new { Result = true });
         //}

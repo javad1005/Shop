@@ -15,7 +15,7 @@ namespace Nop.Core.Domain.RasteBazars
     /// <summary>
     /// Represents a rastebazar
     /// </summary>
-    public partial class RasteBazar : BaseEntity
+    public partial class RasteBazar : BaseEntity, ILocalizedEntity
     {
         /// <summary>
         /// Gets or sets the name
@@ -46,5 +46,21 @@ namespace Nop.Core.Domain.RasteBazars
         /// Gets or sets the meta keywords
         /// </summary>
         public string MetaKeywords { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether the entity has been deleted
+        /// </summary>
+        public bool Deleted { get; set; }
+
+
+        /// <summary>
+        /// Gets or sets the date and time of instance creation
+        /// </summary>
+        public DateTime CreatedOnUtc { get; set; }
+
+        /// <summary>
+        /// Gets or sets the date and time of instance update
+        /// </summary>
+        public DateTime UpdatedOnUtc { get; set; }
     }
 }

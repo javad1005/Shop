@@ -1,5 +1,6 @@
 ﻿using Nop.Core.Caching;
 using Nop.Core.Domain.Catalog;
+using Nop.Core.Domain.RasteBazars;
 
 namespace Nop.Services.Catalog
 {
@@ -439,6 +440,20 @@ namespace Nop.Services.Catalog
         /// Gets a key pattern to clear cache
         /// </summary>
         public static string SpecificationAttributeGroupByProductPrefix => "Nop.specificationattributegroup.byproduct.";
+
+        #endregion
+
+        #region RasteBazar
+
+        /// <summary>
+        /// Gets a key for caching
+        /// </summary>
+        /// <remarks>
+        /// {0} : current store ID
+        /// {1} : roles of the current user
+        /// {2} : show hidden records?
+        /// </remarks>
+        public static CacheKey RasteBazarsAllCacheKey => new("Nop.rasteBazar.all.{0}-{1}-{2}", NopEntityCacheDefaults<RasteBazar>.AllPrefix);
 
         #endregion
 
