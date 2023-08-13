@@ -4,8 +4,8 @@ _ReSharper.*
 bin
 obj
 packages
-**/bin/*
-**/obj/*
+*/bin
+*/obj
 /Presentation/Nop.Web/obj
 /Presentation/Nop.Web/bin
 /Presentation/Nop.Web.Framework/obj
