@@ -11,34 +11,34 @@ namespace Nop.Web.Areas.Admin.Factories
     public interface IRasteBazarModelFactory
     {
         /// <summary>
-        /// Prepare category search model
+        /// Prepare rastebazar search model
         /// </summary>
         /// <param name="searchModel">RasteBazar search model</param>
         /// <returns>
         /// A task that represents the asynchronous operation
         /// The task result contains the rastebazar search model
         /// </returns>
-        Task<CategorySearchModel> PrepareRasteBazarSearchModelAsync(RasteBazarSearchModel searchModel);
+        Task<RasteBazarSearchModel> PrepareRasteBazarSearchModelAsync(RasteBazarSearchModel searchModel);
 
         /// <summary>
-        /// Prepare paged category list model
+        /// Prepare paged rastebazar list model
         /// </summary>
         /// <param name="searchModel">RasteBazar search model</param>
         /// <returns>
         /// A task that represents the asynchronous operation
         /// The task result contains the rastebazar list model
         /// </returns>
-        Task<CategoryListModel> PrepareRasteBazarListModelAsync(RasteBazarSearchModel searchModel);
+        Task<RasteBazarListModel> PrepareRasteBazarListModelAsync(RasteBazarSearchModel searchModel);
 
         /// <summary>
-        /// Prepare category model
+        /// Prepare rastebazar model
         /// </summary>
         /// <param name="model">RasteBazar model</param>
         /// <param name="rasteBazar">RasteBazar</param>
         /// <param name="excludeProperties">Whether to exclude populating of some properties of model</param>
         /// <returns>
         /// A task that represents the asynchronous operation
-        /// The task result contains the category model
+        /// The task result contains the rastebazar model
         /// </returns>
         Task<RasteBazarModel> PrepareRasteBazarModelAsync(RasteBazarModel model, RasteBazar rasteBazar, bool excludeProperties = false);
 

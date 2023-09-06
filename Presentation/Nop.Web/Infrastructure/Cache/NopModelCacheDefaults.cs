@@ -66,6 +66,24 @@ namespace Nop.Web.Infrastructure.Cache
         public static string HomepageBestsellersIdsPrefixCacheKey => "Nop.pres.bestsellers.homepage";
 
         /// <summary>
+        /// Key for mostviewed identifiers displayed on the home page
+        /// </summary>
+        /// <remarks>
+        /// {0} : current store ID
+        /// </remarks>
+        public static CacheKey HomepageMostViewedsIdsKey => new("Nop.pres.mostviewed.homepage-{0}", HomepageMostViewedsIdsPrefixCacheKey);
+        public static string HomepageMostViewedsIdsPrefixCacheKey => "Nop.pres.mostviewed.homepage";
+
+        /// <summary>
+        /// Key for mostviewed identifiers displayed on the home page
+        /// </summary>
+        /// <remarks>
+        /// {0} : current store ID
+        /// </remarks>
+        public static CacheKey HomepageNewProductsIdsKey => new("Nop.pres.newproduct.homepage-{0}", HomepageNewProductsIdsPrefixCacheKey);
+        public static string HomepageNewProductsIdsPrefixCacheKey => "Nop.pres.newproduct.homepage";
+
+        /// <summary>
         /// Key for "also purchased" product identifiers displayed on the product details page
         /// </summary>
         /// <remarks>

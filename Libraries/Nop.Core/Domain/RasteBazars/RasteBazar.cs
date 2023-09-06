@@ -15,7 +15,7 @@ namespace Nop.Core.Domain.RasteBazars
     /// <summary>
     /// Represents a rastebazar
     /// </summary>
-    public partial class RasteBazar : BaseEntity, ILocalizedEntity
+    public partial class RasteBazar : BaseEntity, ILocalizedEntity, IAclSupported, ISlugSupported
     {
         /// <summary>
         /// Gets or sets the name
@@ -48,6 +48,16 @@ namespace Nop.Core.Domain.RasteBazars
         public string MetaKeywords { get; set; }
 
         /// <summary>
+        /// Gets or sets the page size
+        /// </summary>
+        public int PageSize { get; set; }
+
+        /// <summary>
+        /// Gets or sets the available customer selectable page size options
+        /// </summary>
+        public string PageSizeOptions { get; set; }
+
+        /// <summary>
         /// Gets or sets a value indicating whether the entity has been deleted
         /// </summary>
         public bool Deleted { get; set; }
@@ -62,5 +72,10 @@ namespace Nop.Core.Domain.RasteBazars
         /// Gets or sets the date and time of instance update
         /// </summary>
         public DateTime UpdatedOnUtc { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether the entity is subject to ACL
+        /// </summary>
+        public bool SubjectToAcl { get; set; }
     }
 }

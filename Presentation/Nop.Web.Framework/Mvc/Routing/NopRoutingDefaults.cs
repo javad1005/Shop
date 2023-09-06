@@ -75,6 +75,11 @@
                 /// Gets the generic product tag route name
                 /// </summary>
                 public static string ProductTag => "ProductsByTag";
+
+                /// <summary>
+                /// Gets the generic rastebazar route name
+                /// </summary>
+                public static string RasteBazar => "RasteBazar";
             }
         }
 
@@ -158,6 +163,11 @@
             /// Gets default key for catalog route value
             /// </summary>
             public static string CatalogSeName => "CatalogSeName";
+
+            /// <summary>
+            /// Gets default key for rastebazar id route value
+            /// </summary>
+            public static string RasteBazarId => "rastebazarid";
         }
 
         #endregion

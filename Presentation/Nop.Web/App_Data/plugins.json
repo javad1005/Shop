@@ -32,10 +32,6 @@
       "Version": "1.10"
     },
     {
-      "SystemName": "MultiFactorAuth.GoogleAuthenticator",
-      "Version": "1.14"
-    },
-    {
       "SystemName": "Payments.CheckMoneyOrder",
       "Version": "1.51"
     },
@@ -53,27 +49,15 @@
     },
     {
       "SystemName": "RasteBazar",
-      "Version": "1.0"
+      "Version": "1.2"
     },
     {
       "SystemName": "Shipping.FixedByWeightByTotal",
       "Version": "2.36"
     },
     {
-      "SystemName": "Shipping.UPS",
-      "Version": "1.71"
-    },
-    {
-      "SystemName": "Tax.Avalara",
-      "Version": "2.68"
-    },
-    {
       "SystemName": "Tax.FixedOrByCountryStateZip",
       "Version": "1.44"
-    },
-    {
-      "SystemName": "Widgets.AccessiBe",
-      "Version": "1.21"
     },
     {
       "SystemName": "Widgets.FacebookPixel",
@@ -94,11 +78,31 @@
     {
       "SystemName": "ExternalAuth.Facebook",
       "Version": "1.80"
+    },
+    {
+      "SystemName": "Cypher.Phoenix",
+      "Version": "3.0.3"
+    },
+    {
+      "SystemName": "SevenSpikes.Core",
+      "Version": "4.6"
+    },
+    {
+      "SystemName": "SevenSpikes.Nop.Plugins.AnywhereSliders",
+      "Version": "4.6"
+    },
+    {
+      "SystemName": "SevenSpikes.Nop.Plugins.MegaMenu",
+      "Version": "4.6"
     }
   ],
   "PluginNamesToUninstall": [],
   "PluginNamesToDelete": [
-    "Nop.Plugin.MyReactApp"
+    "Nop.Plugin.MyReactApp",
+    "MultiFactorAuth.GoogleAuthenticator",
+    "Shipping.UPS",
+    "Tax.Avalara",
+    "Widgets.AccessiBe"
   ],
   "PluginNamesToInstall": []
 }
