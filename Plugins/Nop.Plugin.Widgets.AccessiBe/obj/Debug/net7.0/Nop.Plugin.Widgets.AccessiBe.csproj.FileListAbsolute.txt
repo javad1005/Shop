@@ -634,3 +634,6 @@ C:\Users\HP\Desktop\Raste_Bazar\Shop\Plugins\Nop.Plugin.Widgets.AccessiBe\obj\De
 C:\Users\HP\Desktop\Raste_Bazar\Shop\Plugins\Nop.Plugin.Widgets.AccessiBe\obj\Debug\net7.0\refint\Nop.Plugin.Widgets.AccessiBe.dll
 C:\Users\HP\Desktop\Raste_Bazar\Shop\Plugins\Nop.Plugin.Widgets.AccessiBe\obj\Debug\net7.0\Nop.Plugin.Widgets.AccessiBe.pdb
 C:\Users\HP\Desktop\Raste_Bazar\Shop\Plugins\Nop.Plugin.Widgets.AccessiBe\obj\Debug\net7.0\ref\Nop.Plugin.Widgets.AccessiBe.dll
+C:\Users\HRBox\Source\Repos\Shop\Plugins\Nop.Plugin.Widgets.AccessiBe\obj\Debug\net7.0\Nop.Plugin.Widgets.AccessiBe.dll
+C:\Users\HRBox\Source\Repos\Shop\Plugins\Nop.Plugin.Widgets.AccessiBe\obj\Debug\net7.0\refint\Nop.Plugin.Widgets.AccessiBe.dll
+C:\Users\HRBox\Source\Repos\Shop\Plugins\Nop.Plugin.Widgets.AccessiBe\obj\Debug\net7.0\Nop.Plugin.Widgets.AccessiBe.pdb

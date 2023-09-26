@@ -638,3 +638,6 @@ C:\Users\HP\Desktop\Raste_Bazar\Shop\Plugins\Nop.Plugin.Misc.Sendinblue\obj\Debu
 C:\Users\HP\Desktop\Raste_Bazar\Shop\Plugins\Nop.Plugin.Misc.Sendinblue\obj\Debug\net7.0\refint\Nop.Plugin.Misc.Sendinblue.dll
 C:\Users\HP\Desktop\Raste_Bazar\Shop\Plugins\Nop.Plugin.Misc.Sendinblue\obj\Debug\net7.0\Nop.Plugin.Misc.Sendinblue.pdb
 C:\Users\HP\Desktop\Raste_Bazar\Shop\Plugins\Nop.Plugin.Misc.Sendinblue\obj\Debug\net7.0\ref\Nop.Plugin.Misc.Sendinblue.dll
+C:\Users\HRBox\Source\Repos\Shop\Plugins\Nop.Plugin.Misc.Sendinblue\obj\Debug\net7.0\Nop.Plugin.Misc.Sendinblue.dll
+C:\Users\HRBox\Source\Repos\Shop\Plugins\Nop.Plugin.Misc.Sendinblue\obj\Debug\net7.0\refint\Nop.Plugin.Misc.Sendinblue.dll
+C:\Users\HRBox\Source\Repos\Shop\Plugins\Nop.Plugin.Misc.Sendinblue\obj\Debug\net7.0\Nop.Plugin.Misc.Sendinblue.pdb

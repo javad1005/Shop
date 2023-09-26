@@ -690,3 +690,6 @@ C:\Users\HP\Desktop\Raste_Bazar\Shop\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\D
 C:\Users\HP\Desktop\Raste_Bazar\Shop\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\net7.0\refint\Nop.Plugin.Widgets.NivoSlider.dll
 C:\Users\HP\Desktop\Raste_Bazar\Shop\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\net7.0\Nop.Plugin.Widgets.NivoSlider.pdb
 C:\Users\HP\Desktop\Raste_Bazar\Shop\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\net7.0\ref\Nop.Plugin.Widgets.NivoSlider.dll
+C:\Users\HRBox\Source\Repos\Shop\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\net7.0\Nop.Plugin.Widgets.NivoSlider.dll
+C:\Users\HRBox\Source\Repos\Shop\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\net7.0\refint\Nop.Plugin.Widgets.NivoSlider.dll
+C:\Users\HRBox\Source\Repos\Shop\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\net7.0\Nop.Plugin.Widgets.NivoSlider.pdb

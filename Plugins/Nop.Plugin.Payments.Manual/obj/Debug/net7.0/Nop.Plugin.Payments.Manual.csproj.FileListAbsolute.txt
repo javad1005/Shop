@@ -636,3 +636,6 @@ C:\Users\HP\Desktop\Raste_Bazar\Shop\Plugins\Nop.Plugin.Payments.Manual\obj\Debu
 C:\Users\HP\Desktop\Raste_Bazar\Shop\Plugins\Nop.Plugin.Payments.Manual\obj\Debug\net7.0\refint\Nop.Plugin.Payments.Manual.dll
 C:\Users\HP\Desktop\Raste_Bazar\Shop\Plugins\Nop.Plugin.Payments.Manual\obj\Debug\net7.0\Nop.Plugin.Payments.Manual.pdb
 C:\Users\HP\Desktop\Raste_Bazar\Shop\Plugins\Nop.Plugin.Payments.Manual\obj\Debug\net7.0\ref\Nop.Plugin.Payments.Manual.dll
+C:\Users\HRBox\Source\Repos\Shop\Plugins\Nop.Plugin.Payments.Manual\obj\Debug\net7.0\Nop.Plugin.Payments.Manual.dll
+C:\Users\HRBox\Source\Repos\Shop\Plugins\Nop.Plugin.Payments.Manual\obj\Debug\net7.0\refint\Nop.Plugin.Payments.Manual.dll
+C:\Users\HRBox\Source\Repos\Shop\Plugins\Nop.Plugin.Payments.Manual\obj\Debug\net7.0\Nop.Plugin.Payments.Manual.pdb

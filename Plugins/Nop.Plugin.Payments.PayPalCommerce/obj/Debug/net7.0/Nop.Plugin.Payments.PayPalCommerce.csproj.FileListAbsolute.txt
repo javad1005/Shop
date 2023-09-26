@@ -638,3 +638,6 @@ C:\Users\HP\Desktop\Raste_Bazar\Shop\Plugins\Nop.Plugin.Payments.PayPalCommerce\
 C:\Users\HP\Desktop\Raste_Bazar\Shop\Plugins\Nop.Plugin.Payments.PayPalCommerce\obj\Debug\net7.0\refint\Nop.Plugin.Payments.PayPalCommerce.dll
 C:\Users\HP\Desktop\Raste_Bazar\Shop\Plugins\Nop.Plugin.Payments.PayPalCommerce\obj\Debug\net7.0\Nop.Plugin.Payments.PayPalCommerce.pdb
 C:\Users\HP\Desktop\Raste_Bazar\Shop\Plugins\Nop.Plugin.Payments.PayPalCommerce\obj\Debug\net7.0\ref\Nop.Plugin.Payments.PayPalCommerce.dll
+C:\Users\HRBox\Source\Repos\Shop\Plugins\Nop.Plugin.Payments.PayPalCommerce\obj\Debug\net7.0\Nop.Plugin.Payments.PayPalCommerce.dll
+C:\Users\HRBox\Source\Repos\Shop\Plugins\Nop.Plugin.Payments.PayPalCommerce\obj\Debug\net7.0\refint\Nop.Plugin.Payments.PayPalCommerce.dll
+C:\Users\HRBox\Source\Repos\Shop\Plugins\Nop.Plugin.Payments.PayPalCommerce\obj\Debug\net7.0\Nop.Plugin.Payments.PayPalCommerce.pdb

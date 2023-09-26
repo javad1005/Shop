@@ -630,3 +630,6 @@ C:\Users\HP\Desktop\Raste_Bazar\Shop\Plugins\Nop.Plugin.Pickup.PickupInStore\obj
 C:\Users\HP\Desktop\Raste_Bazar\Shop\Plugins\Nop.Plugin.Pickup.PickupInStore\obj\Debug\net7.0\refint\Nop.Plugin.Pickup.PickupInStore.dll
 C:\Users\HP\Desktop\Raste_Bazar\Shop\Plugins\Nop.Plugin.Pickup.PickupInStore\obj\Debug\net7.0\Nop.Plugin.Pickup.PickupInStore.pdb
 C:\Users\HP\Desktop\Raste_Bazar\Shop\Plugins\Nop.Plugin.Pickup.PickupInStore\obj\Debug\net7.0\ref\Nop.Plugin.Pickup.PickupInStore.dll
+C:\Users\HRBox\Source\Repos\Shop\Plugins\Nop.Plugin.Pickup.PickupInStore\obj\Debug\net7.0\Nop.Plugin.Pickup.PickupInStore.dll
+C:\Users\HRBox\Source\Repos\Shop\Plugins\Nop.Plugin.Pickup.PickupInStore\obj\Debug\net7.0\refint\Nop.Plugin.Pickup.PickupInStore.dll
+C:\Users\HRBox\Source\Repos\Shop\Plugins\Nop.Plugin.Pickup.PickupInStore\obj\Debug\net7.0\Nop.Plugin.Pickup.PickupInStore.pdb

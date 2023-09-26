@@ -620,3 +620,6 @@ C:\Users\HP\Desktop\Raste_Bazar\Shop\Plugins\Nop.Plugin.ExchangeRate.EcbExchange
 C:\Users\HP\Desktop\Raste_Bazar\Shop\Plugins\Nop.Plugin.ExchangeRate.EcbExchange\obj\Debug\net7.0\refint\Nop.Plugin.ExchangeRate.EcbExchange.dll
 C:\Users\HP\Desktop\Raste_Bazar\Shop\Plugins\Nop.Plugin.ExchangeRate.EcbExchange\obj\Debug\net7.0\Nop.Plugin.ExchangeRate.EcbExchange.pdb
 C:\Users\HP\Desktop\Raste_Bazar\Shop\Plugins\Nop.Plugin.ExchangeRate.EcbExchange\obj\Debug\net7.0\ref\Nop.Plugin.ExchangeRate.EcbExchange.dll
+C:\Users\HRBox\Source\Repos\Shop\Plugins\Nop.Plugin.ExchangeRate.EcbExchange\obj\Debug\net7.0\Nop.Plugin.ExchangeRate.EcbExchange.dll
+C:\Users\HRBox\Source\Repos\Shop\Plugins\Nop.Plugin.ExchangeRate.EcbExchange\obj\Debug\net7.0\refint\Nop.Plugin.ExchangeRate.EcbExchange.dll
+C:\Users\HRBox\Source\Repos\Shop\Plugins\Nop.Plugin.ExchangeRate.EcbExchange\obj\Debug\net7.0\Nop.Plugin.ExchangeRate.EcbExchange.pdb
