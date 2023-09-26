@@ -20,6 +20,7 @@ using Nop.Core.Domain.Localization;
 using Nop.Core.Domain.Messages;
 using Nop.Core.Domain.Orders;
 using Nop.Core.Domain.Payments;
+using Nop.Core.Domain.RasteBazars;
 using Nop.Core.Domain.Seo;
 using Nop.Core.Domain.Shipping;
 using Nop.Core.Domain.Tax;
@@ -899,6 +900,19 @@ namespace Nop.Services.ExportImport
             }
 
             await xmlWriter.WriteEndElementAsync();
+        }
+
+        /// <returns>A task that represents the asynchronous operation</returns>
+        protected virtual async Task<bool> IgnoreExportRasteBazarPropertyAsync()
+        {
+            try
+            {
+                return !await _genericAttributeService.GetAttributeAsync<bool>(await _workContext.GetCurrentCustomerAsync(), "rastebazar-advanced-mode");
+            }
+            catch (ArgumentNullException)
+            {
+                return false;
+            }
         }
 
         #endregion
@@ -2435,6 +2449,45 @@ namespace Nop.Services.ExportImport
             }
 
             return stream.ToArray();
+        }
+
+        /// <summary>
+        /// Export rastebazars to XLSX
+        /// </summary>
+        /// <param name="rasteBazars">RasteBazars</param>
+        /// <returns>A task that represents the asynchronous operation</returns>
+        public virtual async Task<byte[]> ExportRasteBazarsToXlsxAsync(IList<RasteBazar> rasteBazars)
+        {
+            
+            var languages = await _languageService.GetAllLanguagesAsync(showHidden: true);
+
+            var localizedProperties = new[]
+            {
+                new PropertyByName<RasteBazar, Language>("Id", (p, l) => p.Id),
+                new PropertyByName<RasteBazar, Language>("Name", async (p, l) => await _localizationService.GetLocalizedAsync(p, x => x.Name, l.Id, false)),
+                new PropertyByName<RasteBazar, Language>("MetaKeywords", async (p, l) => await _localizationService.GetLocalizedAsync(p, x => x.MetaKeywords, l.Id, false)),
+                new PropertyByName<RasteBazar, Language>("MetaTitle", async (p, l) => await _localizationService.GetLocalizedAsync(p, x => x.MetaTitle, l.Id, false)),
+                new PropertyByName<RasteBazar, Language>("SeName", async (p, l) => await _urlRecordService.GetSeNameAsync(p, l.Id, returnDefaultValue: false), await IgnoreExportRasteBazarPropertyAsync())
+            };
+
+            //property manager 
+            var manager = new PropertyManager<RasteBazar, Language>(new[]
+            {
+                new PropertyByName<RasteBazar, Language>("Id", (p, l) => p.Id),
+                new PropertyByName<RasteBazar, Language>("Name", (p, l) => p.Name),
+                new PropertyByName<RasteBazar, Language>("Description", (p, l) => p.Description),
+                new PropertyByName<RasteBazar, Language>("MetaKeywords", (p, l) => p.MetaKeywords, await IgnoreExportRasteBazarPropertyAsync()),
+                new PropertyByName<RasteBazar, Language>("MetaTitle", (p, l) => p.MetaTitle, await IgnoreExportRasteBazarPropertyAsync()),
+                new PropertyByName<RasteBazar, Language>("SeName", async (p, l) => await _urlRecordService.GetSeNameAsync(p, 0), await IgnoreExportRasteBazarPropertyAsync()),
+                new PropertyByName<RasteBazar, Language>("Picture", async (p, l) => await GetPicturesAsync(p.PictureId)),
+                new PropertyByName<RasteBazar, Language>("PageSize", (p, l) => p.PageSize, await IgnoreExportRasteBazarPropertyAsync()),
+            }, _catalogSettings, localizedProperties, languages);
+
+            //activity log
+            await _customerActivityService.InsertActivityAsync("ExportRasteBazars",
+                string.Format(await _localizationService.GetResourceAsync("ActivityLog.ExportRasteBazars"), rasteBazars.Count));
+
+            return await manager.ExportToXlsxAsync(rasteBazars);
         }
 
         #endregion

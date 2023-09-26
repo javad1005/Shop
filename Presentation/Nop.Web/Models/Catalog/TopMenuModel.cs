@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using Nop.Web.Framework.Models;
+using Nop.Web.Models.Common;
 
 namespace Nop.Web.Models.Catalog
 {
@@ -38,6 +39,8 @@ namespace Nop.Web.Models.Catalog
                        && !(DisplayBlogMenuItem && BlogEnabled)
                        && !(DisplayForumsMenuItem && ForumEnabled)
                        && !DisplayContactUsMenuItem;
+
+        public HeaderLinksModel HeaderLinksModel { get; set; }
 
         #region Nested classes
 

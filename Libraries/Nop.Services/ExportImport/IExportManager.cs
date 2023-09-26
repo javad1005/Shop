@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using Nop.Core.Domain.Catalog;
+using Nop.Core.Domain.RasteBazars;
 using Nop.Core.Domain.Customers;
 using Nop.Core.Domain.Directory;
 using Nop.Core.Domain.Messages;
@@ -127,5 +128,12 @@ namespace Nop.Services.ExportImport
         /// The task result contains the customer GDPR info
         /// </returns>
         Task<byte[]> ExportCustomerGdprInfoToXlsxAsync(Customer customer, int storeId);
+
+        /// <summary>
+        /// Export rastebazars to XLSX
+        /// </summary>
+        /// <param name="rasteBazars">RasteBazars</param>
+        /// <returns>A task that represents the asynchronous operation</returns>
+        Task<byte[]> ExportRasteBazarsToXlsxAsync(IList<RasteBazar> rasteBazars);
     }
 }

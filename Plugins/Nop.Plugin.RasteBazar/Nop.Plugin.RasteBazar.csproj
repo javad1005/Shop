@@ -70,12 +70,6 @@
 	  <None Update="plugin.json">
 	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 	  </None>
-	  <None Update="Scripts\BaseScript.js">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Scripts\Customers.js">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
 	  <None Update="Scripts\Products.js">
 	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 	  </None>

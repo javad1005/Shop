@@ -58,7 +58,7 @@ namespace Nop.Services.Security
         public static readonly PermissionRecord HtmlEditorManagePictures = new() { Name = "Admin area. HTML Editor. Manage pictures", SystemName = "HtmlEditor.ManagePictures", Category = "Configuration" };
         public static readonly PermissionRecord ManageScheduleTasks = new() { Name = "Admin area. Manage Schedule Tasks", SystemName = "ManageScheduleTasks", Category = "Configuration" };
         public static readonly PermissionRecord ManageAppSettings = new() { Name = "Admin area. Manage App Settings", SystemName = "ManageAppSettings", Category = "Configuration" };
-        public static readonly PermissionRecord ManageRasteBazar = new() { Name = "Admin area. Manage Raste Bazar", SystemName = "ManageRasteBazar", Category = "Catalog" };
+        //public static readonly PermissionRecord ManageRasteBazar = new() { Name = "Admin area. Manage Raste Bazar", SystemName = "ManageRasteBazar", Category = "Catalog" };
 
         //public store permissions
         public static readonly PermissionRecord DisplayPrices = new() { Name = "Public store. Display Prices", SystemName = "DisplayPrices", Category = "PublicStore" };
@@ -120,6 +120,7 @@ namespace Nop.Services.Security
                 ManageAcl,
                 ManageEmailAccounts,
                 ManageStores,
+                //ManageRasteBazar,
                 ManagePlugins,
                 ManageSystemLog,
                 ManageMessageQueue,
@@ -159,6 +160,7 @@ namespace Nop.Services.Security
                         ManageAttributes,
                         ManageCustomers,
                         ManageVendors,
+                        //ManageRasteBazar,
                         ManageCurrentCarts,
                         ManageOrders,
                         ManageRecurringPayments,
